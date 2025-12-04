@@ -1,0 +1,7 @@
+## Ethical Considerations: The Responsibility of the Architect
+
+With this immense new power comes immense responsibility. As the architects of these AI-driven systems, we must be vigilant about the ethical implications of our work.
+
+*   **Bias:** AI models are trained on vast datasets of human-generated text and code, complete with all its inherent biases. If a model is trained on code that consistently underpays a certain demographic in a payroll system, it may replicate that bias. It is our job as reviewers to audit the output of AI systems for fairness and to build specs that explicitly forbid biased outcomes.
+*   **Security:** AI can write insecure code just as easily as it can write secure code. It might inadvertently introduce a SQL injection vulnerability or use a deprecated cryptography library. The human architect is the final line of defense for security. Your review process must be even more stringent, as you are responsible for the code the AI generates on your behalf.
+*   **Job Displacement:** The fear that AI will "take our jobs" is pervasive. While the nature of the software developer's job will undoubtedly change, this technological shift, like all others before it, will likely create new roles even as it makes old ones obsolete. The demand for skilled architects, AI prompters, system designers, and AI ethicists will skyrocket. The challenge for us as a community is to focus on education and retraining, helping people transition from the old paradigm to the new.
